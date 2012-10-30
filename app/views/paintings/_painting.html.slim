@@ -1,2 +1,4 @@
-= image_tag(painting.image.url(:thumb), :class => "img-polaroid") if painting.image.file?
-= painting.name
+li class="span4"
+  div class="thumbnail"
+    = image_tag(painting.image.url(:thumb), :class => "img-polaroid") if painting.image.file?
+    h5= painting.name
