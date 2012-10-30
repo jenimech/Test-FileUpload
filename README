@@ -4,4 +4,6 @@ Setup: Only 4 steps
 1- Download app
 2- run bundle install or bundle
 3- run rake db:migrate
-4- start ther server
+4- start the server
+
+by @jenimech
