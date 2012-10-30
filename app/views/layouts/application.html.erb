@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="row">
+  <div class="span9"><h1>UploadFilesApp</h1></div>
+  
+  <div class="row">
+    <div class="span8 offset1">
+      <%= yield %>
+    </div>
+  </div>
 
-<%= yield %>
+</div>
 
 </body>
 </html>
